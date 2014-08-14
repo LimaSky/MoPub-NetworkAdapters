@@ -29,7 +29,7 @@
 #import <VungleSDK/VungleSDK.h>
 
 /*
- * Certified with version 2.0.1 of the Vungle SDK.
+ * Certified with version 3.0.9 of the Vungle SDK.
  *
  * The Vungle SDK does not provide an ad clicked callback. As a result, this custom event will not invoke delegate methods 
  * interstitialCustomEventDidReceiveTapEvent: and interstitialCustomEventWillLeaveApplication:

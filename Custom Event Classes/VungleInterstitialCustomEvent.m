@@ -52,9 +52,6 @@ static BOOL isVungleRunning = NO;
             appId = kVungleAppID;
         }
         [[VungleSDK sharedSDK] startWithAppId:appId];
-        #if !NDEBUG
-        [[VungleSDK sharedSDK] setLoggingEnabled: YES];
-        #endif
         
         isVungleRunning = YES;
     }
